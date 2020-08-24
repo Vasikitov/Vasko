@@ -1,0 +1,150 @@
+body{
+	margin:0;
+    background-color: rgba(0,0,0,0.95);
+    color:white;
+}
+
+a{
+	text-decoration: none;
+}
+
+.fail{
+    color:red;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.fail>a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+}
+
+#detalle_insercion{
+    font-family: 'Rajdhani', sans-serif;
+    font-size:30px;
+    text-align: center;
+}
+
+/*Codigo para el formulario de registro*/
+
+h3{
+	font-family: 'Rajdhani', sans-serif;
+	font-size:60px;
+	text-align: center;
+}
+
+.container_registro{
+	font-family: 'Rajdhani', sans-serif;
+	font-size:30px;
+	width: 100%;
+	margin-bottom: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+.container_registro>div>label>input{
+	border: none;
+	outline: none;
+    background-color:rgba(0,0,0,0);
+	border-bottom: 5px solid white;
+    color:white;
+}
+
+.container_registro>div>label>input::placeholder{
+    color:white;
+}
+
+.container_registro>div>label>input:focus{
+	border-bottom: 2px solid red;
+}
+
+.container_registro>input[type="submit"]{
+	font-family: 'Rajdhani', sans-serif;
+	font-size:30px;
+	background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+.container_registro>input[type="submit"]:hover{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+.container_registro>input[type="submit"]:focus{
+    background-color: red;
+    color: black;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+#pais{
+    -webkit-appearance: none;
+    width: 180px;
+    height: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    border-bottom: 5px solid white;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+}
+
+#pais>option{
+    height: 100px;
+    color:black;
+}
+
+/*Codigo para cambiar el input file.*/
+
+.container_registro>input[type="file"]{
+	font-family: 'Rajdhani', sans-serif;
+    display: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+
+#file + label {
+    background-color: yellow;
+    color: black;
+	width: 200px;
+    font-size: 30px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#file:focus + label,
+#file + label:hover {
+	cursor:pointer;
+    background-color: red;
+    color:white;
+    transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 380px){
+
+	.container_registro>input[type="submit"]{
+		margin:0;
+	}
+}

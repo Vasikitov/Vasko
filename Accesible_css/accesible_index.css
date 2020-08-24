@@ -1,0 +1,286 @@
+body{
+	margin:0;
+	background-color: rgba(0,0,0,0.95);
+}
+
+a{
+	text-decoration: none;
+}
+
+.foto_seleccionada{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
+
+.foto_seleccionada>h2{
+	font-size: 40px;
+}
+
+.foto_seleccionada>h3{
+	font-size: 30px;
+}
+
+.foto_seleccionada>a>img{
+	border: 5px solid white;
+	transition: 0.5s;
+}
+
+.foto_seleccionada>a>img:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	border: 5px solid red;
+}
+
+.foto_seleccionada>a:focus img{
+	transform: scale(1.1);
+	transition: 0.5s;
+	border: 5px solid red;
+}
+
+.foto_seleccionada>a{
+	color:white;
+}
+
+/*Codigo para el formulario de login*/
+/*Posteriormente lo cambiaremos a un dropdown mediante
+Javascript*/
+.formulario_login{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	color:white;
+}
+
+.formulario_login>h3{
+	font-size:50px;
+}
+
+.formulario_login>label>input{
+	border: none;
+	outline: none;
+	margin-left: 30px;
+	border-bottom: 5px solid white;
+	background-color: rgba(0,0,0,0);
+	color:white;
+}
+
+.formulario_login>label>input:focus{
+	border-bottom: 5px solid red;
+}
+
+.formulario_login>input[type="submit"]{
+	background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+.formulario_login>input[type="submit"]:hover{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+.formulario_login>input[type="submit"]:focus{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+.formulario_login>input[type="button"]{
+	background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.formulario_login>input[type="button"]:hover{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*Codigo para el flex container que englobara el login
+y la busqueda rapida*/
+.flex_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 1px solid white;
+}
+
+
+/*Codigo para busqueda rapida*/
+.formulario_busqueda{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	color:white;
+}
+
+.formulario_busqueda>h3{
+	font-size:50px;
+}
+
+.formulario_busqueda>input[type="search"]{
+	border: none;
+	outline: none;
+	margin-left: 30px;
+	border-bottom: 5px solid white;
+	background-color: rgba(0,0,0,0);
+	color:white;
+}
+
+.formulario_busqueda>input[type="search"]:focus{
+	border-bottom: 2px solid red;
+}
+
+.formulario_busqueda>input[type="submit"]{
+	background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+.formulario_busqueda>input[type="submit"]:hover{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+.formulario_busqueda>input[type="submit"]:focus{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+
+/*Codigo para la seccion de ultimas fotos 
+subidas*/
+
+.section_container{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 100%;
+	margin-bottom: 100px;
+	color:white;	
+}
+
+section>h3{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color:white;
+}
+
+.section_container>article{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+}
+
+.section_container>article>h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+.section_container>article>h2>a{
+	color:white;
+}
+
+.section_container>article>h2>a:hover{
+	color:red;
+	transition: 0.3s;
+}
+
+.section_container>article>h2>a:focus{
+	color:red;
+	transition: 0.3s;
+}
+
+.section_container>article>div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.section_container>article>figure>a>img{
+	border: 5px solid white;
+	transition: 0.5s;
+}
+
+.section_container>article>figure>a>img:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	border: 5px solid red;
+}
+
+.section_container>article>figure>a:focus img{
+	transform: scale(1.1);
+	transition: 0.5s;
+	border: 5px solid red;
+}
+
+/*Mediaqueries*/
+
+/*Mediaquery para los dos formularios de login y de busqueda en Index.*/
+@media only screen and (max-width: 770px) {
+	
+	.flex_container{
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+/*Mediaquery para la seccion de fotos.*/
+
+@media only screen and (max-width: 620px){
+	
+	.section_container>article>figure>a>img{
+		transform: scale(.5);
+		transition: 0.5s;
+	}
+
+	.section_container>article>figure>a>img:hover{
+		transform: scale(.6);
+		transition: 0.5s;
+	}
+
+	.section_container>article>div{
+		justify-content: space-evenly;
+	}
+}

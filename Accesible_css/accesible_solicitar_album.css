@@ -1,0 +1,208 @@
+body{
+	margin:0;
+	background-color: rgba(0,0,0,0.95);
+}
+
+a{
+	text-decoration: none;
+}
+
+#link_album{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#link_album>a{
+	text-decoration: none;
+    color:white;
+    align-self: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+}
+
+#link_album>a:hover{
+    color:red;
+    transition:0.5s;
+}
+
+h2{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	color:white;
+}
+
+h3{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:white;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	border-collapse: collapse;
+	color:white;
+}
+
+table, td{
+	border:3px solid red;
+}
+
+.tit{
+		font-size: 30px;
+		font-weight: bold;
+}
+
+p{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color:white;
+}
+
+.dir{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+div{
+	display: inline-block;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 1%;
+	padding: 0% 3%;
+}
+
+form{
+	font-family: 'Rajdhani', sans-serif;
+	border: 5px solid red;
+	width: 80%; 
+	margin-left: 10%;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 100px;
+	color:white;
+}
+
+::placeholder{
+	color:white;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"]{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-bottom: 5px solid white;
+	background-color: rgba(0,0,0,0);
+	color:white;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="date"]:focus{
+	border-bottom: 5px solid red;
+}
+
+input[type="date"]{
+	color:white;
+}
+
+input[type="submit"]{
+	font-size: 30px;
+	background-color: yellow;
+    color: black;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:focus{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    font: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 5px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgba(255,0,0,1);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 5px solid white;
+    }
+
+/*Codigo para cambiar el input file.*/
+
+form>input[type="file"]{
+	font-family: 'Rajdhani', sans-serif;
+	font-size:30px;
+	background-color: yellow;
+    color: black;
+    display: none;
+    border: none;
+    outline: none;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+
+#file + label {
+	margin-top: 50px;
+	width: 250px;
+    font-size: 30px;
+    color: black;
+    background-color: yellow;
+    display: inline-block;
+}
+
+#file:focus + label,
+#file + label:hover {
+	cursor:pointer;
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}

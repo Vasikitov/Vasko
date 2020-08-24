@@ -1,0 +1,166 @@
+body{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#link{
+	display: inline-block;
+  	width: 350px;
+  	height: 70px;
+  	transform: skew(20deg);
+  	background: black;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 1%;
+	transition: 0.5s;
+}
+
+#link>a{
+	display:block;
+	text-align: center;
+	color:white;
+	height: 50px;
+	padding-top: 5%;
+	transform: skew(-20deg);
+	transition: 0.5s;
+}
+
+#link:hover{
+	background-color: red;
+	transition: 0.5s;
+}
+#link>a:hover{
+	color:black;
+	transition: 0.5s;
+}
+
+h3{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*Código para el PHP*/
+.success{
+	font-size: 30px;
+}
+
+.success b{
+	color:red;
+	cursor: pointer;
+}
+
+/*Codigo para los datos de perfil*/
+.datos_perfil_container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.datos_perfil_container>ul{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+}
+
+.flex-container {
+	 display: flex;
+	 justify-content: center;
+	 align-items:center;
+	 flex-flow: row wrap;
+	 color:white;
+	 text-align: center;
+	 font-family: 'Rajdhani', sans-serif;
+	 font-size: 25px;
+	 width:300px;
+	 margin-left: 50%;
+	 margin-bottom: 200px;
+}
+
+.flex-container>a{
+	flex:1 0 50%;
+	width: 20px;
+	margin: 1px;
+	display: inline;
+	color:white;
+	background-color: black;
+}
+
+.flex-container>a:hover{
+	background-color: rgba(255,0,0,1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.flex-container>a:focus{
+	background-color: rgba(255,0,0,1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.datos_perfil_container>figure{
+	text-align: center;
+}
+
+img{
+	border: 5px solid black;
+}
+
+.album_flex>article>figure:hover img{
+	transform: scale(1.1);
+	transition: 0.5s;
+	border: 5px solid red;
+	cursor:pointer;
+}
+
+p{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+/*Codigo para los albumes*/
+
+.album_flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 200px;
+}
+
+.album_flex>article{
+	width: 550px;
+}
+
+.album_flex>article>h3>a:hover{
+	color: red;
+	transition: 0.5s;
+}
+
+/*Mediaqueries*/
+
+@media only screen and (max-width:620px){
+	
+	.flex-container{
+		width: 100%;
+		margin-left: 0;
+		color:yellow;
+	}
+
+}
+
+
+
+
+

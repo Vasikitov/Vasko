@@ -1,0 +1,150 @@
+body{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Codigo para cambiar el scrollbar*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    background-clip: content-box;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+    height: 50px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/*Codigo para el header*/
+header{
+	background:url(../Images/header_image.jpg);
+	width: 100%;
+	height: 500px;
+}
+
+header>a>h1{
+	margin:0;
+	padding-top: 200px;
+	color:black;
+	position: static;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+	font-size: 70px;
+}
+
+
+/*Codigo para el navbar*/
+nav{
+	display: flex;
+	justify-content: center;
+	flex-direction: 
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+nav>a{
+	
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 0px 150px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+}
+
+nav>a:hover{
+	background-color: rgba(255,0,0,1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*Codigo para el contenedor de busqueda avanzada*/
+.container_busqueda_avanzada{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;	
+	margin-bottom: 100px;
+}
+
+.container_busqueda_avanzada>div{
+	flex:0 10%;
+}
+
+.container_busqueda_avanzada>div>label>input{
+	border:none;
+	outline:none;
+	border-bottom: 2px solid;
+}
+
+.container_busqueda_avanzada>div>label>input:focus{
+	border-bottom: 2px solid red;
+}
+
+
+
+h3{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.container_busqueda_avanzada>input[type="submit"]{
+	background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: -50px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.container_busqueda_avanzada>input[type="submit"]:hover{
+	background-color: red;
+    color: black;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/*Codigo para el footer*/
+footer{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	color:white;
+	position: fixed;
+ 	right: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	padding: 1rem;
+ 	margin-top: 50px;
+ 	background-color: black;
+ 	text-align: center;
+}
