@@ -50,8 +50,6 @@ header>a>h1{
 
 
 /*Codigo para el navbar*/
-
-/*
 nav{
 	display: flex;
 	justify-content: center;
@@ -78,7 +76,6 @@ nav>a:hover{
 	transition: 0.5s;
 	cursor: pointer;
 }
-*/
 
 /*Codigo para el formulario de login*/
 /*Posteriormente lo cambiaremos a un dropdown mediante
@@ -239,11 +236,3 @@ footer{
  	background-color: black;
  	text-align: center;
 }
-
-
-
-
-
-
-
-

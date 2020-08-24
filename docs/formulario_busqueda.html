@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de b&uacute;squeda avanzada</title>
+	<link rel="stylesheet" type="text/css" href="./Css/formulario_busqueda.css" />
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani|Satisfy" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="index.html"><h1>Myst</h1></a>
+	</header>
+
+	<nav>
+        <a href="index.html">Inicio</a>
+        <a href="formulario_busqueda.html">Buscar</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="usuario_registrado.html">Mi perfil</a>
+	</nav>
+
+	<h3>Formulario de b&uacute;squeda avanzada</h3>
+
+	<div class="container_busqueda_avanzada">
+		<div>
+			<label>
+				T&iacute;tulo:
+				<input type="text" name="titulo">
+				<br><br>
+			</label>	
+		</div>
+		
+		<div>
+			<label>
+				Fecha entre:
+				<input type="date">
+			</label>
+
+			<label>
+				y 
+				<input type="date">
+				<br><br>
+			</label>
+				
+		</div>
+		
+		<div>
+			<label>
+				Pa&iacute;s:
+				<input type="text" name="pais">
+				<br><br>
+			</label>
+		</div>
+
+		<div>
+			<label>
+				&Aacute;lbum(opcional):
+				<input type="text" name="album">
+				<br><br><br>
+			</label>
+		</div>
+			
+		<br>
+
+		<input type="submit" name="buscar" value="Buscar" onclick="window.location = 'resultado_busqueda.html'">
+		
+	</div>
+	
+
+	
+
+	
+	<footer>Myst Entertainment   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &reg; Copyright 2018 All rights reserved</footer>
+</body>
+</html>
