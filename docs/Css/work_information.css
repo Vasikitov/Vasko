@@ -1,0 +1,182 @@
+body{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Codigo para cambiar el scrollbar*/
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background-clip: content-box;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    height: 50px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*Codigo para el header*/
+header{
+	background:url(../Images/Header.png);
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+header>h1
+{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	font-style: italic;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+header>a>h1{
+	margin:0;
+	padding-top: 200px;
+	color:black;
+	position: static;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+
+/*Codigo para el navbar*/
+nav{
+	display: flex;
+	justify-content: center;
+	flex-direction:
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+nav>a{
+
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 0px 150px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 30px;
+}
+
+nav>a:hover{
+	background-color: rgba(255,0,0,1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*Work Information Code*/
+
+.work_container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.work_information
+{
+	margin-left: 5%;
+}
+
+.work_information>h2
+{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.work_information>h3
+{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.work_information>p
+{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.work_container>iframe
+{
+	border: 5px solid black;
+	transition: .5s;
+}
+
+.work_container>iframe:hover
+{
+	border: 5px solid red;
+	transition: .5s;
+	transform: scale(1.1);
+}
+
+
+/*Codigo para el footer*/
+footer{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	color:white;
+	position: fixed;
+ 	right: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	padding: 1rem;
+ 	margin-top: 50px;
+ 	background-color: black;
+ 	text-align: center;
+}
+
+
+@media only screen and (max-width: 840px)
+{
+	nav>a
+	{
+		padding: 0px 50px;
+	}
+}
+
+@media only screen and (max-width: 580px)
+{
+	iframe
+	{
+		width: 400px;
+		height: 200px;
+	}
+}
