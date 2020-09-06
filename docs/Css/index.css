@@ -206,6 +206,16 @@ footer{
 	}
 }
 
+@media only screen and (max-width: 370px)
+{
+	header
+	{
+		height: 250px;
+	}
+}
+
+
+/*Rest of the page*/
 
 @media only screen and (max-width: 840px)
 {
@@ -215,19 +225,51 @@ footer{
 	}
 }
 
+@media only screen and (max-width: 430px)
+{
+	nav>a
+	{
+		padding: 0px 20px;
+	}
+}
+
+@media only screen and (max-width: 700px)
+{
+	article
+	{
+		transform: scale(.9);
+	}
+}
+
 @media only screen and (max-width: 630px)
 {
-	.section_container>article
+	article
 	{
-		transform:scale(.8);
+		transform: scale(.8);
 	}
 }
 
 
+@media only screen and (max-width: 570px)
+{
+	article
+	{
+		transform: scale(.7);
+	}
+}
+
 @media only screen and (max-width: 500px)
 {
-	.section_container>article
+	article
 	{
-		transform:scale(.6);
+		transform: scale(.6);
+	}
+}
+
+@media only screen and (max-width: 430px)
+{
+	article
+	{
+		transform: scale(.5);
 	}
 }

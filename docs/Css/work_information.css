@@ -104,11 +104,15 @@ nav>a:hover{
 	margin-left: 5%;
 	margin-bottom: 5%;
 	margin-top: 5%;
+	max-width: 100%;
 }
 
 .work_information
 {
 	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 100px;
+	text-align: justify;
 }
 
 .work_information>h2
@@ -122,7 +126,6 @@ nav>a:hover{
 .work_information>h3
 {
 	font-family: 'Rajdhani', sans-serif;
-	text-align: center;
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -130,8 +133,8 @@ nav>a:hover{
 .work_information>p
 {
 	font-family: 'Rajdhani', sans-serif;
-	text-align: center;
 	font-size: 1.5em;
+	width: 600px;
 }
 
 .work_container>iframe
@@ -172,11 +175,58 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 580px)
+@media only screen and (max-width: 440px)
+{
+	nav>a
+	{
+		padding: 0px 20px;
+	}
+}
+
+
+
+@media only screen and (max-width: 680px)
 {
 	iframe
 	{
 		width: 400px;
+		height: 300px;
+	}
+
+	.work_information>p
+	{
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 570px)
+{
+	iframe
+	{
+		width: 300px;
 		height: 200px;
+	}
+
+	.work_information>p
+	{
+		width: 400px;
+	}
+
+	.work_information>h2
+	{
+		font-size: 35px;
+	}
+}
+
+@media only screen and (max-width: 470px)
+{
+	.work_information>p
+	{
+		width: 300px;
+	}
+
+	.work_information>h2
+	{
+		font-size: 25px;
 	}
 }
