@@ -119,12 +119,25 @@ nav>a:hover{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background: url(../Images/ChineseLowPoly.webp) rgba(0, 0, 0, .8);
-	background-size: cover;
-	background-blend-mode: multiply;
 	position: absolute;
 	bottom: 20;
 	width: 100%;
+}
+
+#chinese
+{
+	background: url(../Images/ChineseLowPoly.webp) rgba(0, 0, 0, .8);
+	background-position: 50%;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+#dakyr
+{
+	background: url(../Images/Dakyr.webp) rgba(0, 0, 0, .8);
+	background-position: 50%;
+	background-size: cover;
+	background-blend-mode: multiply;
 }
 
 .screenshots>h2
