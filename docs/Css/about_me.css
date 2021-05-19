@@ -170,6 +170,20 @@ nav>a:hover{
 	margin-left: 20px;
 }
 
+@keyframes unreal_engine {
+	from
+	{
+		width: 0px;
+		opacity: 0;
+	}
+
+	to
+	{
+		opacity: 1;
+		width: 475px;
+	}
+}
+
 @keyframes ae {
 	from
 	{
@@ -180,7 +194,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 500px;
+		width: 450px;
 	}
 }
 
@@ -194,7 +208,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 435px;
+		width: 400px;
 	}
 }
 
@@ -208,7 +222,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 407px;
+		width: 400px;
 	}
 }
 
@@ -222,7 +236,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 380px;
+		width: 400px;
 	}
 }
 
@@ -236,11 +250,11 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 364px;
+		width: 350px;
 	}
 }
 
-@keyframes unreal_engine {
+@keyframes substance_painter {
 	from
 	{
 		width: 0px;
@@ -250,7 +264,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 353px;
+		width: 325px;
 	}
 }
 
@@ -264,7 +278,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 326px;
+		width: 300px;
 	}
 }
 
@@ -278,7 +292,7 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 271px;
+		width: 250px;
 	}
 }
 
@@ -292,15 +306,25 @@ nav>a:hover{
 	to
 	{
 		opacity: 1;
-		width: 163px;
+		width: 150px;
 	}
+}
+
+.unreal_engine
+{
+	background-color: rgba(0, 0, 255, .5);
+	border: 2px solid black;
+	width: 475px;
+	height: 20px;
+	animation-name: unreal_engine;
+	animation-duration: 1.5s;
 }
 
 .after_effects
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 500px;
+	width: 450px;
 	height: 20px;
 	animation-name: ae;
 	animation-duration: 1.5s;
@@ -310,7 +334,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 435px;
+	width: 400px;
 	height: 20px;
 	animation-name: cplus;
 	animation-duration: 1.5s;
@@ -320,7 +344,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 407px;
+	width: 400px;
 	height: 20px;
 	animation-name: blender;
 	animation-duration: 1.5s;
@@ -330,7 +354,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 380px;
+	width: 400px;
 	height: 20px;
 	animation-name: zbrush;
 	animation-duration: 1.5s;
@@ -340,19 +364,9 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 364px;
+	width: 350px;
 	height: 20px;
 	animation-name: photoshop;
-	animation-duration: 1.5s;
-}
-
-.unreal_engine
-{
-	background-color: rgba(0, 0, 255, .5);
-	border: 2px solid black;
-	width: 353px;
-	height: 20px;
-	animation-name: unreal_engine;
 	animation-duration: 1.5s;
 }
 
@@ -360,9 +374,9 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 353px;
+	width: 325px;
 	height: 20px;
-	animation-name: unreal_engine;
+	animation-name: substance_painter;
 	animation-duration: 1.5s;
 }
 
@@ -370,7 +384,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 326px;
+	width: 300px;
 	height: 20px;
 	animation-name: html;
 	animation-duration: 1.5s;
@@ -380,7 +394,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 326px;
+	width: 300px;
 	height: 20px;
 	animation-name: html;
 	animation-duration: 1.5s;
@@ -390,7 +404,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 271px;
+	width: 250px;
 	height: 20px;
 	animation-name: java;
 	animation-duration: 1.5s;
@@ -400,7 +414,7 @@ nav>a:hover{
 {
 	background-color: rgba(0, 0, 255, .5);
 	border: 2px solid black;
-	width: 163px;
+	width: 150px;
 	height: 20px;
 	animation-name: sql;
 	animation-duration: 1.5s;
