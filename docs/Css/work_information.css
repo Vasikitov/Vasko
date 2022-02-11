@@ -140,6 +140,14 @@ nav>a:hover{
 	background-blend-mode: multiply;
 }
 
+#compass
+{
+	background: url(../Images/Compass_01.webp) rgba(0, 0, 0, .8);
+	background-position: 80%;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
 #yethanima
 {
 	background: url(../Images/Yethanima.webp) rgba(0, 0, 0, .8);
